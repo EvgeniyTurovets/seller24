@@ -197,16 +197,23 @@
             width: 107px;
             height: 107px;
             border-radius: 100%;
-            position: relative;
             background-color: #015aff21;
             margin-right: 20px;
+            text-align: center;
+            vertical-align: middle; 
+            display: table;  
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        .img-r img{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            max-width: 80%;
+        .img-r-img{
+            margin: auto;
+           
+        }
+        .img-r  .img-r-img{
+            max-width: 80%!important;
+            display: inline-block;
         }
         .text1{
             font-weight: 600;
@@ -226,10 +233,30 @@
         .blue .img-r{
             background-color: #ffffff25;
         }
+        .links{
+            margin: 0 auto;
+            margin-bottom: 30px;
+            width: 500px;
+            display: flex;
+        }
+        .link{
+            display: block;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+            text-decoration-line: underline;
+            color: #0158FF;
+            margin: 0 15px;
+            margin-bottom: 15px;
+        }
         @media(max-width: 500px){
             .main{
                 margin-right: 15px;
                 margin-left: 15px;
+            }
+            
+            .text1,  .text2{
+                font-size: 12px;
             }
         }
       
@@ -351,16 +378,16 @@
                         <td>
                             <table cellpadding="0" cellspacing="0" width="600" align="center" style="text-aling: center;margin-top: 30px;background-color: #F9D87B;" bgcolor="#F9D87B">
                                 <tr>
-                                    <td style="font-weight: 600;
-                                    font-size: 20px;
-                                    line-height: 24px;
-                                    text-align: center;
-                                    color: #333333;
-                                    padding-top: 40px;
-                                    padding-bottom: 35px;
-                                    margin-right: 15px;
-                                    margin-left:15px;">
-                                        Доступ  в платформу Seller24
+                                    <td>
+                                        <div style="font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 24px;
+                                        text-align: center;
+                                        color: #333333;
+                                        padding-top: 40px;
+                                        padding-bottom: 35px;
+                                        padding-right: 15px;
+                                        padding-left:15px;">Доступ  в платформу Seller24</div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -436,10 +463,10 @@
                                             <tr>
                                                 <td>
                                                     <div class="img-r">
-                                                        <img src="https://evgeniyturovets.github.io/seller24/img1.png">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img1.png">
                                                     </div>
                                                 </td>
-                                                <td>
+                                                <td style="width: 80%;">
                                                     <div class="text1">Выведение на маркетплейс</div>
                                                     <div class="text2">Первичное выведение на маркетплейс или дополнительный маркетплейс</div>
                                                 </td>
@@ -451,16 +478,141 @@
                                             <tr>
                                                 <td>
                                                     <div class="img-r">
-                                                        <img src="https://evgeniyturovets.github.io/seller24/img1.png">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img2.png">
                                                     </div>
                                                 </td>
-                                                <td>
-                                                    <div class="text1">Выведение на маркетплейс</div>
-                                                    <div class="text2">Первичное выведение на маркетплейс или дополнительный маркетплейс</div>
+                                                <td style="width: 80%;">
+                                                    <div class="text1">Сопровождение по личному кабинету маркетплейса</div>
+                                                    <div class="text2">Ответим на все возникающие вопросы при работе в личном кабинете маркетплейсов</div>
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
+                                    <div class="block">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div class="img-r">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img3.png">
+                                                    </div>
+                                                </td>
+                                                <td style="width: 80%;">
+                                                    <div class="text1">SEO-продвижение
+                                                        карточка товара</div>
+                                                    <div class="text2">Разработаем и реализуем пошаговый план продвижения товара</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="block blue">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div class="img-r">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img4.png">
+                                                    </div>
+                                                </td>
+                                                <td style="width: 80%;">
+                                                    <div class="text1">Платформа Seller24</div>
+                                                    <div class="text2">Единый сервис управления продажами
+                                                        в одном окне</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="block">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div class="img-r">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img5.png">
+                                                    </div>
+                                                </td>
+                                                <td style="width: 80%;">
+                                                    <div class="text1">Инфографика для карточки товара</div>
+                                                    <div class="text2">Создадим продающий вид карточки
+                                                        и подчеркнем уникальность продукта</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="block blue">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div class="img-r">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img6.png">
+                                                    </div>
+                                                </td>
+                                                <td style="width: 80%;">
+                                                    <div class="text1">Профессиональная фотосессия для
+                                                        карточки товара</div>
+                                                    <div class="text2">Отфотографируем товар в фотостудии
+                                                        (10-15 вариантов фотографий
+                                                        для каждой карточки)</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="block">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div class="img-r">
+                                                        <img class="img-r-img" src="https://evgeniyturovets.github.io/seller24/img7.png">
+                                                    </div>
+                                                </td>
+                                                <td style="width: 80%;">
+                                                    <div class="text1">Аналитика ниши</div>
+                                                    <div class="text2">Комплексная аналитика по выбору ниши</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <div  style="font-size: 16px;
+                                line-height: 20px;
+                                text-align: center;
+                                margin-top: 50px;
+                                margin-bottom: 25px;
+                                color: #000000;">
+                                    Всегда на связи,
+                                    <span style="color: #0158FF">команда Seller24</span>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-size: 13px;
+                                    line-height: 16px;
+                                    color: #000000;
+                                    opacity: 0.4;
+                                    margin-bottom: 18px;
+                                    text-align: center;"
+                                    >
+                                        Наши контакты:
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   
+                                        <table cellpadding="0" cellspacing="0" style="width: 540; margin: 0 auto; margin-bottom: 30px;">
+                                            <tr>
+                                                <td>
+                                                    <a class="link" href="tel:+74951362282">+7 (495) 136-22-82</a>
+                                                </td>
+                                                <td>
+                                                    <a class="link" href="">WhatsApp</a>
+                                                </td>
+                                                <td>
+                                                    <a class="link" href="mailto:support@seller24.ru">support@seller24.ru</a>
+                                                </td>
+                                            </tr>
+                                        </table>
                                 </td>
                             </tr>
                         </table>
